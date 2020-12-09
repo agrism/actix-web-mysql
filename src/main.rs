@@ -30,7 +30,7 @@ fn get_pool() -> Option<Arc<Pool<MysqlConnectionManager>>> {
     println!("Getting pool");
 
     let pool = Arc::new(r2d2::Pool::new(manager).unwrap());
-    return Option::Some(pool);
+    Option::Some(pool)
 }
 
 struct AppState {
