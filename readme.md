@@ -12,6 +12,7 @@ CREATE TABLE `persons` (
 
 INSERT INTO `persons` (`id`, `name`) VALUES (1, 'my name');
 ```
+### 5. Run server
 ```cargo run```
-### 4. open in browser
+### 6. open in browser
 http://localhost:8081/persons/1
