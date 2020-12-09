@@ -1,0 +1,17 @@
+[package]
+name = "actix-web-mysql"
+version = "0.1.0"
+authors = ["Agris <7924@inbox.lv>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0.0"
+r2d2 = "0.8.8"
+actix-rt = "1.0.0"
+r2d2_mysql = "17.0.0"
+dotenv = "0.11"
+
+
+
